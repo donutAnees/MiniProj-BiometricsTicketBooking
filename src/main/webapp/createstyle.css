@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(to top, #333399, #00c3ff);
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255,255,255,0.5);
+    padding:2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.create-account h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.create-account-logo img{
+    width: 100px;
+}
+
+.create-account-logo{
+    margin-bottom: 2rem;
+}
+
+.create-account-username input[type="text"]{
+    border:none;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+    border-radius: 100px;
+    width: 80%;
+}
+
+.create-account-name{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.create-account-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.05rem;
+}
+.create-account-name input[type="text"]{
+    border:none;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+    border-radius: 100px;
+    width: 44%;
+
+}
+
+.create-account-password input[type="text"]{
+    border:none;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+    border-radius: 100px;
+    width: 50%;
+    outline: none;
+}
+
+.create-account input:focus {
+    background: white;
+}
+
+.create-account-name{
+    margin-bottom: 1rem;
+}
+
+.create-account-password{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.create-account-username{
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.create-account-fingerprint{
+
+    text-align: center;
+}
+.create-account button{
+    border:none;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.create-account-fingerprint img{
+    width: 50px;
+}
+.create-account-fingerprint input{
+    display: none;
+}
+
+.create-account-fingerprint label{
+    cursor:pointer
+}
+
+.align-button{
+    text-align: center;
+}

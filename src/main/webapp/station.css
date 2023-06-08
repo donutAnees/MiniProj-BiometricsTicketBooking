@@ -1,0 +1,65 @@
+/* Set the background image*/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+  background: linear-gradient(to top, #02aab0, #00cdac);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for heading */
+h1 {
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fileinput img{
+    width: 50px;
+    margin-bottom:35px;
+}
+.fileinput input{
+    display:none;
+}
+
+.fileinput label{
+	cursor:pointer;
+}
+/* Styling for form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for file input */
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  background-color: #4fd15c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}

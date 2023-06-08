@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #9b04ff, #b4269d);
+}
+
+.acc-details-logo{
+        text-align: center;
+}
+
+.acc-details-logo img{
+    width: 60px;
+}
+
+.acc-details{
+    width: 60vh;
+    height:40vh;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.8rem;
+    border-radius: 10px;
+    position: relative;
+}
+.acc-details-name h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.acc-details-name h2{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.acc-details-name{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.acc-balance{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.acc-addmoney{
+    text-align: center;
+}
+
+.acc-addmoney a{
+    color: red;
+}
